@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 02 11:07:31 EST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8449 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.api.tests.UsersTest.createUser()'><b>createUser</b><br>Test class: com.api.tests.UsersTest<br/>
+<a href="#Output-939625314" onClick='toggleBox("Output-939625314", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-939625314" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-939625314">
+Request URL: https://gorest.co.in/public-api/users<br/>
+Request body: {"name":"Test","email":"Test@example.com","gender":"Male","status":"Active"}<br/>
+Request headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc<br/>
+Response status code: 200<br/>
+Response body: {"code":201,"meta":null,"data":{"id":2028,"name":"Test","email":"Test@example.com","gender":"Male","status":"Active","created_at":"2021-02-02T21:37:35.521+05:30","updated_at":"2021-02-02T21:37:35.521+05:30"}}<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.api.tests.UsersTest@5f683daf</td></tr>
+<tr>
+<td title='com.api.tests.UsersTest.deleteUser()'><b>deleteUser</b><br>Test class: com.api.tests.UsersTest<br/>
+<a href="#Output-982565180" onClick='toggleBox("Output-982565180", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-982565180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-982565180">
+Request URL: https://gorest.co.in/public-api/users<br/>
+Request body: null<br/>
+Request headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc<br/>
+Response status code: 200<br/>
+Response body: {"code":404,"meta":null,"data":{"message":"Resource not found"}}<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.UsersTest@5f683daf</td></tr>
+<tr>
+<td title='com.api.tests.UsersTest.getUsers()'><b>getUsers</b><br>Test class: com.api.tests.UsersTest<br/>
+<a href="#Output-1969925628" onClick='toggleBox("Output-1969925628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1969925628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1969925628">
+Request URL: https://gorest.co.in/public-api/users<br/>
+Request body: null<br/>
+Request headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc<br/>
+Response status code: 200<br/>
+Response body: {"code":200,"meta":{"pagination":{"total":1605,"pages":81,"page":1,"limit":20}},"data":[{"id":137,"name":"patrick","email":"shukla_paramartha@kassulke.com","gender":"Male","status":"Active","created_at":"2021-02-02T03:50:06.148+05:30","updated_at":"2021-02-02T21:14:18.953+05:30"},{"id":140,"name":"Dhatri Prajapat","email":"dhatri_prajapat@daugherty.biz","gender":"Female","status":"Inactive","created_at":"2021-02-02T03:50:06.195+05:30","updated_at":"2021-02-02T03:50:06.195+05:30"},{"id":141,"name":"Agnimitra Khanna","email":"agnimitra_khanna@kirlin-ebert.net","gender":"Male","status":"Inactive","created_at":"2021-02-02T03:50:06.197+05:30","updated_at":"2021-02-02T03:50:06.197+05:30"},{"id":143,"name":"Tejas Deshpande","email":"tejas_deshpande@lockman.co","gender":"Male","status":"Inactive","created_at":"2021-02-02T03:50:06.207+05:30","updated_at":"2021-02-02T03:50:06.207+05:30"},{"id":145,"name":"Uma Menon","email":"uma_menon@ernser.name","gender":"Female","status":"Inactive","created_at":"2021-02-02T03:50:06.233+05:30","updated_at":"2021-02-02T03:50:06.233+05:30"},{"id":147,"name":"Gautama Bandopadhyay","email":"gautama_bandopadhyay@bruen-skiles.name","gender":"Male","status":"Active","created_at":"2021-02-02T03:50:06.273+05:30","updated_at":"2021-02-02T03:50:06.273+05:30"},{"id":148,"name":"Bilwa Pothuvaal","email":"bilwa_pothuvaal@corwin.io","gender":"Female","status":"Inactive","created_at":"2021-02-02T03:50:06.281+05:30","updated_at":"2021-02-02T03:50:06.281+05:30"},{"id":150,"name":"Sloka Achari","email":"achari_sloka@ebert.biz","gender":"Male","status":"Active","created_at":"2021-02-02T03:50:06.325+05:30","updated_at":"2021-02-02T03:50:06.325+05:30"},{"id":151,"name":"Minakshi Chopra LLD","email":"minakshi_lld_chopra@rice.net","gender":"Female","status":"Active","created_at":"2021-02-02T03:50:06.350+05:30","updated_at":"2021-02-02T03:50:06.350+05:30"},{"id":152,"name":"MLG2","email":"MLG2@getnada.com","gender":"Male","status":"Active","created_at":"2021-02-02T03:50:06.378+05:30","updated_at":"2021-02-02T21:34:18.249+05:30"},{"id":153,"name":"Daiwik Rana CPA","email":"rana_daiwik_cpa@metz-wunsch.net","gender":"Female","status":"Inactive","created_at":"2021-02-02T03:50:06.383+05:30","updated_at":"2021-02-02T03:50:06.383+05:30"},{"id":154,"name":"Chandra Kakkar","email":"chandra_kakkar@pouros-konopelski.io","gender":"Female","status":"Active","created_at":"2021-02-02T03:50:06.402+05:30","updated_at":"2021-02-02T03:50:06.402+05:30"},{"id":155,"name":"Chandan Abbott","email":"abbott_chandan@christiansen.org","gender":"Male","status":"Active","created_at":"2021-02-02T03:50:06.405+05:30","updated_at":"2021-02-02T03:50:06.405+05:30"},{"id":156,"name":"Tarun Sethi","email":"sethi_tarun@walter-dach.co","gender":"Female","status":"Inactive","created_at":"2021-02-02T03:50:06.433+05:30","updated_at":"2021-02-02T03:50:06.433+05:30"},{"id":157,"name":"Bhargavi Butt","email":"bhargavi_butt@bartell-toy.info","gender":"Male","status":"Inactive","created_at":"2021-02-02T03:50:06.436+05:30","updated_at":"2021-02-02T03:50:06.436+05:30"},{"id":158,"name":"Gotum Kakkar","email":"gotum_kakkar@bode-reichel.com","gender":"Female","status":"Active","created_at":"2021-02-02T03:50:06.454+05:30","updated_at":"2021-02-02T03:50:06.454+05:30"},{"id":159,"name":"Amb. Vaijayanthi Verma","email":"amb_verma_vaijayanthi@ziemann.io","gender":"Female","status":"Inactive","created_at":"2021-02-02T03:50:06.465+05:30","updated_at":"2021-02-02T03:50:06.465+05:30"},{"id":160,"name":"Suryakantam Kaur","email":"suryakantam_kaur@schmidt-smitham.info","gender":"Male","status":"Inactive","created_at":"2021-02-02T03:50:06.474+05:30","updated_at":"2021-02-02T03:50:06.474+05:30"},{"id":161,"name":"Bilva Rana","email":"bilva_rana@wolff.io","gender":"Female","status":"Inactive","created_at":"2021-02-02T03:50:06.487+05:30","updated_at":"2021-02-02T03:50:06.487+05:30"},{"id":162,"name":"Manoj Guha Sr.","email":"sr_guha_manoj@sporer-dickinson.org","gender":"Male","status":"Active","created_at":"2021-02-02T03:50:06.505+05:30","updated_at":"2021-02-02T03:50:06.505+05:30"}]}<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.UsersTest@5f683daf</td></tr>
+<tr>
+<td title='com.api.tests.UsersTest.updateUser()'><b>updateUser</b><br>Test class: com.api.tests.UsersTest<br/>
+<a href="#Output-1232819726" onClick='toggleBox("Output-1232819726", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1232819726" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1232819726">
+Request URL: https://gorest.co.in/public-api/users<br/>
+Request body: {"name":"User Not Found","email":"404@error.com","gender":"Male","status":"Active"}<br/>
+Request headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc<br/>
+Response status code: 404<br/>
+Response body: <br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.UsersTest@5f683daf</td></tr>
+</table><p>
+</body>
+</html>

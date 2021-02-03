@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.api.tests","c":"UsersTest","l":"createUser()"},{"p":"com.api.tests","c":"UsersTest","l":"deleteUser()"},{"p":"com.api.tests","c":"UsersTest","l":"getUsers()"},{"p":"com.api.tests","c":"UsersTest","l":"updateUser()"},{"p":"com.api.tests","c":"UsersTest","l":"UsersTest()","url":"%3Cinit%3E()"}]

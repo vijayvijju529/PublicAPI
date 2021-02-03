@@ -1,0 +1,968 @@
+3Request URL: https://gorest.co.in/public-api/users
+[Request body: {"name":"Test","email":"Test@example.com","gender":"Male","status":"Active"}
+]Request headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+VAuthorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+Request method:	POST
+3Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test",
+!    "email": "Test@example.com",
+    "gender": "Male",
+    "status": "Active"
+}
+3Request URI:	https://gorest.co.in/public-api/users
+Body:
+{
+    "name": "Test",
+!    "email": "Test@example.com",
+    "gender": "Male",
+    "status": "Active"
+}
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+HTTP/1.1 200 OK
+Server: nginx
+$Date: Wed, 27 Jan 2021 19:14:33 GMT
+.Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+ X-XSS-Protection: 1; mode=block
+ X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+(X-Permitted-Cross-Domain-Policies: none
+1Referrer-Policy: strict-origin-when-cross-origin
+5Location: https://gorest.co.in/public-api/users/1765
++ETag: W/"510e3bccfe5fa4418c7bf4a930d4838e"
+3Cache-Control: max-age=0, private, must-revalidate
+3X-Request-Id: c603c800-ec43-4d7d-824d-7fd03743f70e
+X-Runtime: 0.018680
+?Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+X-Frame-Options: sameorigin
+!Expect-CT: enforce; max-age=3600
+Content-Encoding: gzip
+
+{
+    "code": 201,
+    "meta": null,
+    "data": {
+        "id": 1765,
+        "name": "Test",
+%        "email": "Test@example.com",
+        "gender": "Male",
+        "status": "Active",
+7        "created_at": "2021-01-28T00:44:33.008+05:30",
+6        "updated_at": "2021-01-28T00:44:33.008+05:30"
+    }
+}
+Response status code: 200
+àResponse body: {"code":201,"meta":null,"data":{"id":1765,"name":"Test","email":"Test@example.com","gender":"Male","status":"Active","created_at":"2021-01-28T00:44:33.008+05:30","updated_at":"2021-01-28T00:44:33.008+05:30"}}
+{
+    "code": 201,
+    "meta": null,
+    "data": {
+        "id": 1765,
+        "name": "Test",
+%        "email": "Test@example.com",
+        "gender": "Male",
+        "status": "Active",
+7        "created_at": "2021-01-28T00:44:33.008+05:30",
+6        "updated_at": "2021-01-28T00:44:33.008+05:30"
+    }
+}
+3Request URL: https://gorest.co.in/public-api/users
+Request body: null
+]Request headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+VAuthorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+Request method:	DELETE
+5Request URI:	https://gorest.co.in/public-api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+5Request URI:	https://gorest.co.in/public-api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+5Request URI:	https://gorest.co.in/public-api/users/1
+Body:			<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+HTTP/1.1 200 OK
+Server: nginx
+$Date: Wed, 27 Jan 2021 19:14:34 GMT
+.Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+ X-XSS-Protection: 1; mode=block
+ X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+(X-Permitted-Cross-Domain-Policies: none
+1Referrer-Policy: strict-origin-when-cross-origin
++ETag: W/"b654e1cd0d3be5d471e57be8f71a8543"
+3Cache-Control: max-age=0, private, must-revalidate
+3X-Request-Id: 791749e3-4ccf-4123-86cc-efa09401c45f
+X-Runtime: 0.002450
+?Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+X-Frame-Options: sameorigin
+!Expect-CT: enforce; max-age=3600
+Content-Encoding: gzip
+
+{
+    "code": 404,
+    "meta": null,
+    "data": {
+(        "message": "Resource not found"
+    }
+}
+HTTP/1.1 200 OK
+Server: nginx
+$Date: Wed, 27 Jan 2021 19:14:34 GMT
+.Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+ X-XSS-Protection: 1; mode=block
+ X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+(X-Permitted-Cross-Domain-Policies: none
+1Referrer-Policy: strict-origin-when-cross-origin
++ETag: W/"b654e1cd0d3be5d471e57be8f71a8543"
+3Cache-Control: max-age=0, private, must-revalidate
+3X-Request-Id: 791749e3-4ccf-4123-86cc-efa09401c45f
+X-Runtime: 0.002450
+?Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+X-Frame-Options: sameorigin
+!Expect-CT: enforce; max-age=3600
+Content-Encoding: gzip
+
+{
+    "code": 404,
+    "meta": null,
+    "data": {
+(        "message": "Resource not found"
+    }
+}
+Response status code: 200
+PResponse body: {"code":404,"meta":null,"data":{"message":"Resource not found"}}
+3Request URL: https://gorest.co.in/public-api/users
+Request body: null
+]Request headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+VAuthorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+Request method:	GET
+3Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+3Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+3Request URI:	https://gorest.co.in/public-api/users
+Body:			<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+HTTP/1.1 200 OK
+Server: nginx
+$Date: Wed, 27 Jan 2021 19:14:35 GMT
+.Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+ X-XSS-Protection: 1; mode=block
+ X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+(X-Permitted-Cross-Domain-Policies: none
+1Referrer-Policy: strict-origin-when-cross-origin
++ETag: W/"9763799c4fc3b474559ef9fe79d5b6b3"
+3Cache-Control: max-age=0, private, must-revalidate
+3X-Request-Id: 6652ece0-4636-4a25-9ca3-493780d79020
+X-Runtime: 0.016212
+?Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+X-Frame-Options: sameorigin
+!Expect-CT: enforce; max-age=3600
+Content-Encoding: gzip
+
+{
+    "code": 200,
+    "meta": {
+        "pagination": {
+            "total": 1610,
+            "pages": 81,
+            "page": 1,
+            "limit": 20
+
+        }
+    },
+    "data": [
+
+        {
+            "id": 9,
+)            "name": "Krishnadas Varman",
+5            "email": "varman_krishnadas@monahan.co",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.292+05:30",
+:            "updated_at": "2021-01-27T03:50:04.292+05:30"
+        },
+
+        {
+            "id": 10,
+%            "name": "Divaakar Gill",
+2            "email": "divaakar_gill@roberts.net",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.318+05:30",
+:            "updated_at": "2021-01-27T03:50:04.318+05:30"
+        },
+
+        {
+            "id": 11,
+-            "name": "Yogendra Bandopadhyay",
+?            "email": "bandopadhyay_yogendra@senger-purdy.net",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.338+05:30",
+:            "updated_at": "2021-01-27T03:50:04.338+05:30"
+        },
+
+        {
+            "id": 12,
+,            "name": "The Hon. Pramila Jha",
+6            "email": "pramila_jha_hon_the@bode.name",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.345+05:30",
+:            "updated_at": "2021-01-27T03:50:04.345+05:30"
+        },
+
+        {
+            "id": 13,
+'            "name": "Bhima Kapoor VM",
+2            "email": "bhima_kapoor_vm@haley.org",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.356+05:30",
+:            "updated_at": "2021-01-27T03:50:04.356+05:30"
+        },
+
+        {
+            "id": 14,
+%            "name": "Damodara Jain",
+0            "email": "damodara_jain@ortiz.org",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.388+05:30",
+:            "updated_at": "2021-01-27T03:50:04.388+05:30"
+        },
+
+        {
+            "id": 15,
+"            "name": "Menka Nair",
+2            "email": "menka_nair@jones-bosco.co",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.414+05:30",
+:            "updated_at": "2021-01-27T03:50:04.414+05:30"
+        },
+
+        {
+            "id": 16,
+&            "name": "Bhadrak Tandon",
+6            "email": "bhadrak_tandon@mills-swift.io",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.421+05:30",
+:            "updated_at": "2021-01-27T03:50:04.421+05:30"
+        },
+
+        {
+            "id": 17,
+#            "name": "Bela Kakkar",
+-            "email": "bela_kakkar@huels.io",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.443+05:30",
+:            "updated_at": "2021-01-27T03:50:04.443+05:30"
+        },
+
+        {
+            "id": 18,
+'            "name": "Upendra Varrier",
+2            "email": "upendra_varrier@raynor.io",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.457+05:30",
+:            "updated_at": "2021-01-27T03:50:04.457+05:30"
+        },
+
+        {
+            "id": 19,
+$            "name": "Ananda Devar",
+0            "email": "ananda_devar@ernser.net",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.485+05:30",
+:            "updated_at": "2021-01-27T03:50:04.485+05:30"
+        },
+
+        {
+            "id": 20,
+.            "name": "Chakravarti Kaniyar IV",
+A            "email": "iv_chakravarti_kaniyar@douglas-berge.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.510+05:30",
+:            "updated_at": "2021-01-27T03:50:04.510+05:30"
+        },
+
+        {
+            "id": 21,
+'            "name": "Prathamesh Naik",
+8            "email": "naik_prathamesh@lind-carroll.io",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.516+05:30",
+:            "updated_at": "2021-01-27T03:50:04.516+05:30"
+        },
+
+        {
+            "id": 30,
+'            "name": "Kalinda Kocchar",
+<            "email": "kocchar_kalinda@feeney-hartmann.org",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.628+05:30",
+:            "updated_at": "2021-01-27T03:50:04.628+05:30"
+        },
+
+        {
+            "id": 31,
+'            "name": "Andrea Gracanin",
+&            "email": "m.t@gmail.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.657+05:30",
+:            "updated_at": "2021-01-27T15:08:12.567+05:30"
+        },
+
+        {
+            "id": 32,
+*            "name": "Suryakantam Shukla",
+;            "email": "shukla_suryakantam@bruen-hudson.co",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.681+05:30",
+:            "updated_at": "2021-01-27T03:50:04.681+05:30"
+        },
+
+        {
+            "id": 33,
+(            "name": "Ekaparnika Menon",
+=            "email": "menon_ekaparnika@nikolaus-herman.biz",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.709+05:30",
+:            "updated_at": "2021-01-27T03:50:04.709+05:30"
+        },
+
+        {
+            "id": 34,
+*            "name": "Chandramani Achari",
+7            "email": "achari_chandramani@rolfson.org",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.737+05:30",
+:            "updated_at": "2021-01-27T03:50:04.737+05:30"
+        },
+
+        {
+            "id": 37,
+"            "name": "Gopal Gill",
+6            "email": "gill_gopal@schmidt-hansen.com",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.807+05:30",
+:            "updated_at": "2021-01-27T03:50:04.807+05:30"
+        },
+
+        {
+            "id": 39,
+!            "name": "Ajeet Jha",
+0            "email": "jha_ajeet@dickinson.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.834+05:30",
+:            "updated_at": "2021-01-27T03:50:04.834+05:30"
+
+        }
+    ]
+}
+HTTP/1.1 200 OK
+Server: nginx
+$Date: Wed, 27 Jan 2021 19:14:35 GMT
+.Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+ X-XSS-Protection: 1; mode=block
+ X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+(X-Permitted-Cross-Domain-Policies: none
+1Referrer-Policy: strict-origin-when-cross-origin
++ETag: W/"9763799c4fc3b474559ef9fe79d5b6b3"
+3Cache-Control: max-age=0, private, must-revalidate
+3X-Request-Id: 6652ece0-4636-4a25-9ca3-493780d79020
+X-Runtime: 0.016212
+?Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin
+X-Frame-Options: sameorigin
+!Expect-CT: enforce; max-age=3600
+Content-Encoding: gzip
+
+{
+    "code": 200,
+    "meta": {
+        "pagination": {
+            "total": 1610,
+            "pages": 81,
+            "page": 1,
+            "limit": 20
+
+        }
+    },
+    "data": [
+
+        {
+            "id": 9,
+)            "name": "Krishnadas Varman",
+5            "email": "varman_krishnadas@monahan.co",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.292+05:30",
+:            "updated_at": "2021-01-27T03:50:04.292+05:30"
+        },
+
+        {
+            "id": 10,
+%            "name": "Divaakar Gill",
+2            "email": "divaakar_gill@roberts.net",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.318+05:30",
+:            "updated_at": "2021-01-27T03:50:04.318+05:30"
+        },
+
+        {
+            "id": 11,
+-            "name": "Yogendra Bandopadhyay",
+?            "email": "bandopadhyay_yogendra@senger-purdy.net",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.338+05:30",
+:            "updated_at": "2021-01-27T03:50:04.338+05:30"
+        },
+
+        {
+            "id": 12,
+,            "name": "The Hon. Pramila Jha",
+6            "email": "pramila_jha_hon_the@bode.name",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.345+05:30",
+:            "updated_at": "2021-01-27T03:50:04.345+05:30"
+        },
+
+        {
+            "id": 13,
+'            "name": "Bhima Kapoor VM",
+2            "email": "bhima_kapoor_vm@haley.org",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.356+05:30",
+:            "updated_at": "2021-01-27T03:50:04.356+05:30"
+        },
+
+        {
+            "id": 14,
+%            "name": "Damodara Jain",
+0            "email": "damodara_jain@ortiz.org",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.388+05:30",
+:            "updated_at": "2021-01-27T03:50:04.388+05:30"
+        },
+
+        {
+            "id": 15,
+"            "name": "Menka Nair",
+2            "email": "menka_nair@jones-bosco.co",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.414+05:30",
+:            "updated_at": "2021-01-27T03:50:04.414+05:30"
+        },
+
+        {
+            "id": 16,
+&            "name": "Bhadrak Tandon",
+6            "email": "bhadrak_tandon@mills-swift.io",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.421+05:30",
+:            "updated_at": "2021-01-27T03:50:04.421+05:30"
+        },
+
+        {
+            "id": 17,
+#            "name": "Bela Kakkar",
+-            "email": "bela_kakkar@huels.io",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.443+05:30",
+:            "updated_at": "2021-01-27T03:50:04.443+05:30"
+        },
+
+        {
+            "id": 18,
+'            "name": "Upendra Varrier",
+2            "email": "upendra_varrier@raynor.io",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.457+05:30",
+:            "updated_at": "2021-01-27T03:50:04.457+05:30"
+        },
+
+        {
+            "id": 19,
+$            "name": "Ananda Devar",
+0            "email": "ananda_devar@ernser.net",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.485+05:30",
+:            "updated_at": "2021-01-27T03:50:04.485+05:30"
+        },
+
+        {
+            "id": 20,
+.            "name": "Chakravarti Kaniyar IV",
+A            "email": "iv_chakravarti_kaniyar@douglas-berge.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.510+05:30",
+:            "updated_at": "2021-01-27T03:50:04.510+05:30"
+        },
+
+        {
+            "id": 21,
+'            "name": "Prathamesh Naik",
+8            "email": "naik_prathamesh@lind-carroll.io",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.516+05:30",
+:            "updated_at": "2021-01-27T03:50:04.516+05:30"
+        },
+
+        {
+            "id": 30,
+'            "name": "Kalinda Kocchar",
+<            "email": "kocchar_kalinda@feeney-hartmann.org",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.628+05:30",
+:            "updated_at": "2021-01-27T03:50:04.628+05:30"
+        },
+
+        {
+            "id": 31,
+'            "name": "Andrea Gracanin",
+&            "email": "m.t@gmail.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.657+05:30",
+:            "updated_at": "2021-01-27T15:08:12.567+05:30"
+        },
+
+        {
+            "id": 32,
+*            "name": "Suryakantam Shukla",
+;            "email": "shukla_suryakantam@bruen-hudson.co",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.681+05:30",
+:            "updated_at": "2021-01-27T03:50:04.681+05:30"
+        },
+
+        {
+            "id": 33,
+(            "name": "Ekaparnika Menon",
+=            "email": "menon_ekaparnika@nikolaus-herman.biz",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.709+05:30",
+:            "updated_at": "2021-01-27T03:50:04.709+05:30"
+        },
+
+        {
+            "id": 34,
+*            "name": "Chandramani Achari",
+7            "email": "achari_chandramani@rolfson.org",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.737+05:30",
+:            "updated_at": "2021-01-27T03:50:04.737+05:30"
+        },
+
+        {
+            "id": 37,
+"            "name": "Gopal Gill",
+6            "email": "gill_gopal@schmidt-hansen.com",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.807+05:30",
+:            "updated_at": "2021-01-27T03:50:04.807+05:30"
+        },
+
+        {
+            "id": 39,
+!            "name": "Ajeet Jha",
+0            "email": "jha_ajeet@dickinson.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.834+05:30",
+:            "updated_at": "2021-01-27T03:50:04.834+05:30"
+
+        }
+    ]
+}
+Response status code: 200
+€ Response body: {"code":200,"meta":{"pagination":{"total":1610,"pages":81,"page":1,"limit":20}},"data":[{"id":9,"name":"Krishnadas Varman","email":"varman_krishnadas@monahan.co","gender":"Male","status":"Active","created_at":"2021-01-27T03:50:04.292+05:30","updated_at":"2021-01-27T03:50:04.292+05:30"},{"id":10,"name":"Divaakar Gill","email":"divaakar_gill@roberts.net","gender":"Female","status":"Inactive","created_at":"2021-01-27T03:50:04.318+05:30","updated_at":"2021-01-27T03:50:04.318+05:30"},{"id":11,"name":"Yogendra Bandopadhyay","email":"bandopadhyay_yogendra@senger-purdy.net","gender":"Male","status":"Inactive","created_at":"2021-01-27T03:50:04.338+05:30","updated_at":"2021-01-27T03:50:04.338+05:30"},{"id":12,"name":"The Hon. Pramila Jha","email":"pramila_jha_hon_the@bode.name","gender":"Male","status":"Active","created_at":"2021-01-27T03:50:04.345+05:30","updated_at":"2021-01-27T03:50:04.345+05:30"},{"id":13,"name":"Bhima Kapoor VM","email":"bhima_kapoor_vm@haley.org","gender":"Female","status":"Inactive","created_at":"2021-01-27T03:50:04.356+05:30","updated_at":"2021-01-27T03:50:04.356+05:30"},{"id":14,"name":"Damodara Jain","email":"damodara_jain@ortiz.org","gender":"Female","status":"Inactive","created_at":"2021-01-27T03:50:04.388+05:30","updated_at":"2021-01-27T03:50:04.388+05:30"},{"id":15,"name":"Menka Nair","email":"menka_nair@jones-bosco.co","gender":"Male","status":"Inactive","created_at":"2021-01-27T03:50:04.414+05:30","updated_at":"2021-01-27T03:50:04.414+05:30"},{"id":16,"name":"Bhadrak Tandon","email":"bhadrak_tandon@mills-swift.io","gender":"Male","status":"Active","created_at":"2021-01-27T03:50:04.421+05:30","updated_at":"2021-01-27T03:50:04.421+05:30"},{"id":17,"name":"Bela Kakkar","email":"bela_kakkar@huels.io","gender":"Male","status":"Active","created_at":"2021-01-27T03:50:04.443+05:30","updated_at":"2021-01-27T03:50:04.443+05:30"},{"id":18,"name":"Upendra Varrier","email":"upendra_varrier@raynor.io","gender":"Male","status":"Inactive","created_at":"2021-01-27T03:50:04.457+05:30","updated_at":"2021-01-27T03:50:04.457+05:30"},{"id":19,"name":"Ananda Devar","email":"ananda_devar@ernser.net","gender":"Male","status":"Inactive","created_at":"2021-01-27T03:50:04.485+05:30","updated_at":"2021-01-27T03:50:04.485+05:30"},{"id":20,"name":"Chakravarti Kaniyar IV","email":"iv_chakravarti_kaniyar@douglas-berge.com","gender":"Male","status":"Active","created_at":"2021-01-27T03:50:04.510+05:30","updated_at":"2021-01-27T03:50:04.510+05:30"},{"id":21,"name":"Prathamesh Naik","email":"naik_prathamesh@lind-carroll.io","gender":"Male","status":"Inactive","created_at":"2021-01-27T03:50:04.516+05:30","updated_at":"2021-01-27T03:50:04.516+05:30"},{"id":30,"name":"Kalinda Kocchar","email":"kocchar_kalinda@feeney-hartmann.org","gender":"Male","status":"Active","created_at":"2021-01-27T03:50:04.628+05:30","updated_at":"2021-01-27T03:50:04.628+05:30"},{"id":31,"name":"Andrea Gracanin","email":"m.t@gmail.com","gender":"Male","status":"Active","created_at":"2021-01-27T03:50:04.657+05:30","updated_at":"2021-01-27T15:08:12.567+05:30"},{"id":32,"name":"Suryakantam Shukla","email":"shukla_suryakantam@bruen-hudson.co","gender":"Male","status":"Inactive","created_at":"2021-01-27T03:50:04.681+05:30","updated_at":"2021-01-27T03:50:04.681+05:30"},{"id":33,"name":"Ekaparnika Menon","email":"menon_ekaparnika@nikolaus-herman.biz","gender":"Female","status":"Inactive","created_at":"2021-01-27T03:50:04.709+05:30","updated_at":"2021-01-27T03:50:04.709+05:30"},{"id":34,"name":"Chandramani Achari","email":"achari_chandramani@rolfson.org","gender":"Male","status":"Inactive","created_at":"2021-01-27T03:50:04.737+05:30","updated_at":"2021-01-27T03:50:04.737+05:30"},{"id":37,"name":"Gopal Gill","email":"gill_gopal@schmidt-hansen.com","gender":"Male","status":"Inactive","created_at":"2021-01-27T03:50:04.807+05:30","updated_at":"2021-01-27T03:50:04.807+05:30"},{"id":39,"name":"Ajeet Jha","email":"jha_ajeet@dickinson.com","gender":"Male","status":"Active","created_at":"2021-01-27T03:50:04.834+05:30","updated_at":"2021-01-27T03:50:04.834+05:30"}]}
+{
+    "code": 200,
+    "meta": {
+        "pagination": {
+            "total": 1610,
+            "pages": 81,
+            "page": 1,
+            "limit": 20
+
+        }
+    },
+    "data": [
+
+        {
+            "id": 9,
+)            "name": "Krishnadas Varman",
+5            "email": "varman_krishnadas@monahan.co",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.292+05:30",
+:            "updated_at": "2021-01-27T03:50:04.292+05:30"
+        },
+
+        {
+            "id": 10,
+%            "name": "Divaakar Gill",
+2            "email": "divaakar_gill@roberts.net",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.318+05:30",
+:            "updated_at": "2021-01-27T03:50:04.318+05:30"
+        },
+
+        {
+            "id": 11,
+-            "name": "Yogendra Bandopadhyay",
+?            "email": "bandopadhyay_yogendra@senger-purdy.net",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.338+05:30",
+:            "updated_at": "2021-01-27T03:50:04.338+05:30"
+        },
+
+        {
+            "id": 12,
+,            "name": "The Hon. Pramila Jha",
+6            "email": "pramila_jha_hon_the@bode.name",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.345+05:30",
+:            "updated_at": "2021-01-27T03:50:04.345+05:30"
+        },
+
+        {
+            "id": 13,
+'            "name": "Bhima Kapoor VM",
+2            "email": "bhima_kapoor_vm@haley.org",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.356+05:30",
+:            "updated_at": "2021-01-27T03:50:04.356+05:30"
+        },
+
+        {
+            "id": 14,
+%            "name": "Damodara Jain",
+0            "email": "damodara_jain@ortiz.org",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.388+05:30",
+:            "updated_at": "2021-01-27T03:50:04.388+05:30"
+        },
+
+        {
+            "id": 15,
+"            "name": "Menka Nair",
+2            "email": "menka_nair@jones-bosco.co",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.414+05:30",
+:            "updated_at": "2021-01-27T03:50:04.414+05:30"
+        },
+
+        {
+            "id": 16,
+&            "name": "Bhadrak Tandon",
+6            "email": "bhadrak_tandon@mills-swift.io",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.421+05:30",
+:            "updated_at": "2021-01-27T03:50:04.421+05:30"
+        },
+
+        {
+            "id": 17,
+#            "name": "Bela Kakkar",
+-            "email": "bela_kakkar@huels.io",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.443+05:30",
+:            "updated_at": "2021-01-27T03:50:04.443+05:30"
+        },
+
+        {
+            "id": 18,
+'            "name": "Upendra Varrier",
+2            "email": "upendra_varrier@raynor.io",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.457+05:30",
+:            "updated_at": "2021-01-27T03:50:04.457+05:30"
+        },
+
+        {
+            "id": 19,
+$            "name": "Ananda Devar",
+0            "email": "ananda_devar@ernser.net",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.485+05:30",
+:            "updated_at": "2021-01-27T03:50:04.485+05:30"
+        },
+
+        {
+            "id": 20,
+.            "name": "Chakravarti Kaniyar IV",
+A            "email": "iv_chakravarti_kaniyar@douglas-berge.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.510+05:30",
+:            "updated_at": "2021-01-27T03:50:04.510+05:30"
+        },
+
+        {
+            "id": 21,
+'            "name": "Prathamesh Naik",
+8            "email": "naik_prathamesh@lind-carroll.io",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.516+05:30",
+:            "updated_at": "2021-01-27T03:50:04.516+05:30"
+        },
+
+        {
+            "id": 30,
+'            "name": "Kalinda Kocchar",
+<            "email": "kocchar_kalinda@feeney-hartmann.org",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.628+05:30",
+:            "updated_at": "2021-01-27T03:50:04.628+05:30"
+        },
+
+        {
+            "id": 31,
+'            "name": "Andrea Gracanin",
+&            "email": "m.t@gmail.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.657+05:30",
+:            "updated_at": "2021-01-27T15:08:12.567+05:30"
+        },
+
+        {
+            "id": 32,
+*            "name": "Suryakantam Shukla",
+;            "email": "shukla_suryakantam@bruen-hudson.co",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.681+05:30",
+:            "updated_at": "2021-01-27T03:50:04.681+05:30"
+        },
+
+        {
+            "id": 33,
+(            "name": "Ekaparnika Menon",
+=            "email": "menon_ekaparnika@nikolaus-herman.biz",
+             "gender": "Female",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.709+05:30",
+:            "updated_at": "2021-01-27T03:50:04.709+05:30"
+        },
+
+        {
+            "id": 34,
+*            "name": "Chandramani Achari",
+7            "email": "achari_chandramani@rolfson.org",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.737+05:30",
+:            "updated_at": "2021-01-27T03:50:04.737+05:30"
+        },
+
+        {
+            "id": 37,
+"            "name": "Gopal Gill",
+6            "email": "gill_gopal@schmidt-hansen.com",
+            "gender": "Male",
+"            "status": "Inactive",
+;            "created_at": "2021-01-27T03:50:04.807+05:30",
+:            "updated_at": "2021-01-27T03:50:04.807+05:30"
+        },
+
+        {
+            "id": 39,
+!            "name": "Ajeet Jha",
+0            "email": "jha_ajeet@dickinson.com",
+            "gender": "Male",
+             "status": "Active",
+;            "created_at": "2021-01-27T03:50:04.834+05:30",
+:            "updated_at": "2021-01-27T03:50:04.834+05:30"
+
+        }
+    ]
+}
+3Request URL: https://gorest.co.in/public-api/users
+bRequest body: {"name":"User Not Found","email":"404@error.com","gender":"Male","status":"Active"}
+]Request headers: Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+VAuthorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+Request method:	PUT
+3Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "User Not Found",
+    "email": "404@error.com",
+    "gender": "Male",
+    "status": "Active"
+}
+Request method:	PUT
+3Request URI:	https://gorest.co.in/public-api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "User Not Found",
+    "email": "404@error.com",
+    "gender": "Male",
+    "status": "Active"
+}
+3Request URI:	https://gorest.co.in/public-api/users
+Body:
+{
+    "name": "User Not Found",
+    "email": "404@error.com",
+    "gender": "Male",
+    "status": "Active"
+}
+VHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+Z				Authorization=Bearer a2d62ecfe2b61dd4efa5e017f2ab587c0ff4a2a4c26c6a70d7696a7c56c637dc
+1				Content-Type=application/json; charset=UTF-8
